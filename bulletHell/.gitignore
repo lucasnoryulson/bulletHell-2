@@ -1,0 +1,21 @@
+# Ignora executáveis
+*.exe
+*.exe~
+
+# Código Go compilado e módulos
+/bin/
+/pkg/
+/*.exe
+
+# IDE e OS
+.vscode/
+*.log
+*.DS_Store
+Thumbs.db
+
+# Configurações de usuário
+.bash_profile
+.bashrc
+.gitconfig
+.lesshst
+node_repl_history
